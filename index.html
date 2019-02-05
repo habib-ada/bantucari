@@ -42,8 +42,28 @@
       </div>
     </header>
     <div class="container-fluid">
-      <header></header>
-      <div class="row text-center">
+      <header>
+        <div class="m-4 d-flex align-items-center">
+          <select class="custom-select w-auto border-0">
+            <option value="orderby_0">Kategori</option>
+            <option value="orderby_1">Pakaian</option>
+            <option value="orderby_2">Kendaraan</option>
+            <option value="orderby_3">Elektronik</option>
+          </select>
+          <!-- Search form -->
+          <form class="navbar-form" role="search">
+            <div class="input-group add-on">
+              <input
+                class="form-control"
+                placeholder="Search"
+                value="Purwokerto"
+                type="text"
+              />
+            </div>
+          </form>
+        </div>
+      </header>
+      <div class="row text-center m-2">
         <!-- product -->
         <div class="col-xl-3 col-sm-3">
           <div class="card">
