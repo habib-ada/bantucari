@@ -12,7 +12,7 @@
       body {
         height: 100%;
       }
-      .form-signin {
+      .form-register {
         width: 100%;
         max-width: 330px;
         padding: 15px;
@@ -75,40 +75,40 @@
         </ul>
       </div>
     </header>
-    <form class="form-signin">
-      <img
-        class="mb-4"
-        src="/docs/4.2/assets/brand/bootstrap-solid.svg"
-        alt=""
-        width="72"
-        height="72"
-      />
-      <h1 class="h3 mb-3 font-weight-normal">Silahkan masuk</h1>
-      <label for="inputEmail">Alamat Email</label>
-      <input
-        type="email"
-        id="inputEmail"
-        class="form-control"
-        placeholder="Ketikkan alamat email Anda di sini"
-        required=""
-        autofocus=""
-      />
-      <label for="inputPassword">Password</label>
-      <input
-        type="password"
-        id="inputPassword"
-        class="form-control"
-        placeholder="Ketikkan password disini"
-        required=""
-      />
-      <p class="m-3 text-right">Lupa password? <a href="#">Lupa</a></p>
-      <button class="btn btn-lg btn-danger btn-block" type="submit">
-        Masuk
-      </button>
-      <p class="m-3 text-center">Tidak punya akun? <a href="#">Daftar</a></p>
-      <p class="mt-5 mb-3 text-muted">
-        Copyright © 2019 PT. Bantucari Indonesia All Rights Reserved
-      </p>
+    <form class="form-register">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Ketikkan alamat email Anda disini"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          placeholder="Ketikkan password disini"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Konfirm Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          placeholder="Ketikkan password disini"
+        />
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <script
       type="text/javascript"
