@@ -43,19 +43,14 @@
       }
     </style>
     <title>Bantucari</title>
-    <link rel="icon" sizes="192x192" href="public/img/logo.jpg" />
+    <link rel="icon" sizes="192x192" href="public/img/logo.png" />
   </head>
   <body>
     <header
       class="navbar navbar-expand navbar-light flex-column flex-md-row bd-navbar"
     >
       <a class="navbar-brand" href="index.html"
-        ><img
-          src="public/img/logo.jpg"
-          alt=""
-          width="50"
-          height="50"
-        />Bantucari</a
+        ><img src="public/img/logo.png" alt="" height="50" />Bantucari</a
       >
       <button
         class="navbar-toggler collapsed"
@@ -83,14 +78,16 @@
       Tambah info mengenai kamu, jujur tidak perlu berbohong
     </p>
     <form class="form-signin">
-      <div class="input-group mb-3">
-        <div class="custom-file">
-          <input type="file" class="custom-file-input" id="inputGroupFile02" />
-          <label class="custom-file-label" for="inputGroupFile02"
-            >Upload foto</label
-          >
+      <!--
+        <div class="input-group mb-3">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputGroupFile02" />
+            <label class="custom-file-label" for="inputGroupFile02"
+              >Upload foto</label
+            >
+          </div>
         </div>
-      </div>
+      -->
       <div class="form-group">
         <label for="exampleInputEmail1">Nama Lengkap</label>
         <input
@@ -99,6 +96,7 @@
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
           placeholder="Ketikkan nama lengkap Anda disini"
+          required
         />
       </div>
       <div class="form-group">
@@ -108,6 +106,7 @@
           class="form-control"
           id="exampleInputNope"
           placeholder="Nomor yang dapat dihubungi"
+          required
         />
         <button type="submit" class="btn btn-danger btn-block mt-4">
           Selesai
