@@ -48,71 +48,69 @@
       </div>
     </header>
     <div class="container">
-      <header>
-        <div class="row m-3 justify-content-between">
-          <div class="col-sm-4 d-flex">
-            <select class="custom-select w-auto border-0">
-              <option value="orderby_0">Kategori</option>
-              <option value="orderby_1">Pakaian</option>
-              <option value="orderby_2">Kendaraan</option>
-              <option value="orderby_3">Elektronik</option>
-            </select>
-            <!-- Search form -->
-            <form class="navbar-form" role="search">
-              <div class="input-group add-on">
-                <input
-                  class="form-control"
-                  placeholder="Search"
-                  value="Purwokerto"
-                  type="text"
-                />
-              </div>
-            </form>
-          </div>
-          <div class="col-auto mt-2 mb-2">
-            <label class="form-check-label" for="inlineRadio1"
-              >Barang hilang</label
-            >
-            <div class="form-check form-check-inline">
+      <div class="row justify-content-between mb-3">
+        <div class="col-sm-4 d-flex">
+          <select class="custom-select w-auto border-0">
+            <option value="orderby_0">Kategori</option>
+            <option value="orderby_1">Pakaian</option>
+            <option value="orderby_2">Kendaraan</option>
+            <option value="orderby_3">Elektronik</option>
+          </select>
+          <!-- Search form -->
+          <form class="navbar-form" role="search">
+            <div class="input-group add-on">
               <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio1"
-                value="option1"
-              />
-            </div>
-            <label class="form-check-label" for="inlineRadio2"
-              >Barang temuan</label
-            >
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="input-group">
-              <div class="input-group-append">
-                <button class="btn btn-danger" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
-              <input
-                type="text"
                 class="form-control"
-                placeholder="Cari Benda"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
+                placeholder="Search"
+                value="Purwokerto"
+                type="text"
               />
             </div>
+          </form>
+        </div>
+        <div class="col-auto mt-2 mb-2">
+          <label class="form-check-label" for="inlineRadio1"
+            >Barang hilang</label
+          >
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+          </div>
+          <label class="form-check-label" for="inlineRadio2"
+            >Barang temuan</label
+          >
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
           </div>
         </div>
-      </header>
+        <div class="col-sm-3">
+          <div class="input-group">
+            <div class="input-group-append">
+              <button class="btn btn-danger" type="button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Cari Benda"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+        </div>
+      </div>
       <div class="row text-center">
         <!-- product -->
         <div class="col-xl-3 col-sm-4 mb-4">
